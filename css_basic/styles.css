@@ -1,0 +1,29 @@
+body, main {
+
+}
+main {
+  flex-direction: row;
+  flex: auto;
+}
+body{
+  background-color: brown;
+  flex-direction: column;
+  border: 5px solid black;
+  margin: 0;
+
+}
+article {
+  flex: flex;
+  color: white;
+  background-color: aqua;
+}
+aside {
+  flex: 1;
+}
+article, aside {
+  overflow-y: auto;
+}
+.logo {
+  width: 230px;
+}
+
