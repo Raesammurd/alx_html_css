@@ -187,10 +187,6 @@
     list-style: none;
   }
   
-  .row::after {
-    display: none;
-  }
-  
   [class*='col-'] {
     padding: 0.5rem;
   }
